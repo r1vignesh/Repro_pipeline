@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 
 # Configure logging
 logging.basicConfig(
+    filename="logs/data_ingestion.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )

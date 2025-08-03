@@ -10,6 +10,7 @@ from nltk.stem import WordNetLemmatizer
 
 # Configure logging
 logging.basicConfig(
+    filename="logs/data_preprocessing.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )

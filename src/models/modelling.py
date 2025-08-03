@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Configure logging
 logging.basicConfig(
+    filename="logs/modelling.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )

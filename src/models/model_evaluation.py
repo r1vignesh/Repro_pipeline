@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_a
 
 # Configure logging
 logging.basicConfig(
+    filename="logs/model_evaluation.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )

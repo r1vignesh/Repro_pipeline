@@ -8,6 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 # Configure logging
 logging.basicConfig(
+    filename="logs/feature_engg.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
